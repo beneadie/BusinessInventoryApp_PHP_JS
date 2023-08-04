@@ -236,25 +236,6 @@
         echo $output3;
         };
 
-
-  // THE JSONARRAY4 FOREACH FUNCTION WOULD NOT RUN. I WAS ABLE TO FIGURE OUT THAT IT WAS NOT ABLE TO COMPLETE THE GETELEMENTBYID COMMAND DESPITE AS I WAS ABLE TO ALTER THE [EMPLOYEENUMBER]ORDERS ELEMENT WITH TESTERS SO IT SEEMS THAT THIS IS THE ISSUE. I TINKERED WITH IT AND THE QUERY A LOT SO IN THE STATE I LEFT IT PHP WAS NO LONGER RECOGNIZING 'ORDERNAME' IN THE ARRAY. BECAUSE OF THIS FAILING I WASN'T ABLE TO DO THE SALES CALCULATION EITHER
-
-    //foreach($jsonarray4 as $Array) {
-     //   $output4 =
-       // "<script>
-    //    var content = [' ', '".$Array['orderNumber']. "');
-    //    var things = document.getElementById('".$Array['salesRepEmployeeNumber']."orders');
-      //  var i;
-    //    for (i = 0; i < content.length; i++) {
-      //      things.appendChild(document.createTextNode(content[i]));
-        //    things.appendChild(document.createElement('br'));
-          //  }
-
-    //    </script>";
-        //echo $output4;
-        //};
-
-
     ?>
 
 
